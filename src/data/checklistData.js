@@ -1,0 +1,33 @@
+﻿export const checklistItems = [
+  { id: 1, title: 'Use strong unique passwords', description: 'Create long, distinct passwords for every account that matters.', category: 'Password Security', priority: 'High', completed: true },
+  { id: 2, title: 'Use a password manager', description: 'Keep your credentials encrypted and generate passwords you do not have to memorize.', category: 'Password Security', priority: 'High', completed: true },
+  { id: 3, title: 'Change compromised passwords', description: 'Replace credentials immediately when a service reports a breach.', category: 'Password Security', priority: 'High', completed: false },
+  { id: 4, title: 'Avoid sharing passwords', description: 'Keep personal credentials private, even with trusted contacts.', category: 'Password Security', priority: 'Medium', completed: true },
+  { id: 5, title: 'Review password reuse', description: 'Find and replace reused passwords across your accounts.', category: 'Password Security', priority: 'Medium', completed: false },
+  { id: 6, title: 'Enable 2FA on important accounts', description: 'Add a second layer of protection to email, banking, and social accounts.', category: 'Two-Factor Authentication', priority: 'High', completed: false },
+  { id: 7, title: 'Prefer authenticator apps or security keys', description: 'Choose phishing-resistant sign-in methods where they are supported.', category: 'Two-Factor Authentication', priority: 'High', completed: true },
+  { id: 8, title: 'Review recovery methods', description: 'Make sure backup email addresses and phone numbers are current.', category: 'Two-Factor Authentication', priority: 'Medium', completed: false },
+  { id: 9, title: 'Keep your operating system updated', description: 'Install security patches as soon as they become available.', category: 'Software Updates', priority: 'High', completed: true },
+  { id: 10, title: 'Update applications regularly', description: 'Keep browsers, productivity tools, and mobile apps current.', category: 'Software Updates', priority: 'Medium', completed: true },
+  { id: 11, title: 'Enable automatic security updates', description: 'Let trusted devices apply critical fixes without waiting.', category: 'Software Updates', priority: 'Medium', completed: false },
+  { id: 12, title: 'Maintain regular backups', description: 'Create an offline or cloud backup schedule for your important data.', category: 'Backup & Recovery', priority: 'High', completed: true },
+  { id: 13, title: 'Secure your backup location', description: 'Protect backup files with encryption and separate account access.', category: 'Backup & Recovery', priority: 'Medium', completed: true },
+  { id: 14, title: 'Test whether backups can be restored', description: 'A backup only helps if you can reliably recover from it.', category: 'Backup & Recovery', priority: 'High', completed: false },
+  { id: 15, title: 'Check sender addresses before clicking', description: 'Inspect the real address, not just the display name.', category: 'Phishing Awareness', priority: 'High', completed: true },
+  { id: 16, title: 'Avoid suspicious links', description: 'Navigate directly to trusted sites instead of following unexpected links.', category: 'Phishing Awareness', priority: 'High', completed: true },
+  { id: 17, title: 'Verify unexpected attachments', description: 'Confirm the sender and context before opening files.', category: 'Phishing Awareness', priority: 'Medium', completed: false },
+  { id: 18, title: 'Be cautious of urgent requests', description: 'Pause and verify requests involving money, access, or sensitive data.', category: 'Phishing Awareness', priority: 'High', completed: true },
+  { id: 19, title: 'Review application permissions', description: 'Remove access that apps no longer need to do their job.', category: 'Privacy Settings', priority: 'Medium', completed: false },
+  { id: 20, title: 'Review social media privacy settings', description: 'Choose who can see your profile, activity, and contact details.', category: 'Privacy Settings', priority: 'Medium', completed: true },
+  { id: 21, title: 'Disable unnecessary permissions', description: 'Limit camera, microphone, contacts, and location access.', category: 'Privacy Settings', priority: 'Medium', completed: false },
+  { id: 22, title: 'Check account privacy settings', description: 'Review sign-in alerts, public visibility, and connected devices.', category: 'Privacy Settings', priority: 'High', completed: false },
+]
+
+export const categories = [
+  { name: 'Password Security', icon: 'LockKeyhole', accent: 'mint' },
+  { name: 'Two-Factor Authentication', icon: 'ShieldCheck', accent: 'cyan' },
+  { name: 'Software Updates', icon: 'RefreshCw', accent: 'amber' },
+  { name: 'Backup & Recovery', icon: 'HardDriveDownload', accent: 'blue' },
+  { name: 'Phishing Awareness', icon: 'FishSymbol', accent: 'rose' },
+  { name: 'Privacy Settings', icon: 'EyeOff', accent: 'violet' },
+]
